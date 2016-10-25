@@ -1,0 +1,19 @@
+{
+    "name": "fl/oauth2-prelinker",
+    "description": "Prelinker Provider for the PHP League's OAuth 2.0 Client",
+    "keywords": ["prelinker", "api", "oauth2", "league"],
+    "authors": [{
+        "name": "Mathieu Rochette",
+        "email": "mathieu@texthtml.net",
+        "homepage": "https://mathieu.rochette.cc/",
+        "role": "Developer"
+    }],
+    "autoload": {
+        "psr-4": {
+            "FL\\OAuth2Prelinker\\": "src/"
+        }
+    },
+    "require": {
+        "league/oauth2-client": "^1.4"
+    }
+}
